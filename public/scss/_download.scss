@@ -2,6 +2,10 @@
 section.download {
     position: relative;
     padding: 150px 0;
+    color: #fff;
+    background-image: url('../img/bg-quienes.jpg');
+    background-position: center;
+    @include background-cover;
     h2 {
         font-size: 50px;
         margin-top: 0;

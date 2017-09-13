@@ -8,6 +8,12 @@ footer {
         font-size: 12px;
         margin: 0;
     }
+    a {
+     color :fade-out(white, .7);
+     &:hover {
+        color : #fff;
+     }
+ }
     ul {
         margin-bottom: 0;
         li {

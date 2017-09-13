@@ -1,6 +1,13 @@
 // Styling for the download section
 section.contact {
     text-align: center;
+    color :#fff;
+        background: url('../img/bg-futbol.png'), $theme-secondary;
+    background: url('../img/bg-futbol.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background: url('../img/bg-futbol.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    a {
+        color :#fff;
+    }
     h2 {
         margin-top: 0;
         margin-bottom: 25px;
